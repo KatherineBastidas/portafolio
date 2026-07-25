@@ -1,346 +1,212 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <title>Katherine Bastidas | Analista de Datos</title>
 
-
 <style>
-
 body {
-
-font-family: Arial, sans-serif;
-margin: 0;
-background-color: #EAF2F8;
-color: #20666B;
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #EAF2F8;
+    color: #20666B;
 }
-
 
 header {
-
-background-color: #20666B;
-color:white;
-text-align:center;
-padding:50px;
-
+    background-color: #20666B;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
-
 
 .profile {
-
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
 }
-
 
 h1 {
-
-font-size:40px;
-
+    font-size: 40px;
+    margin-bottom: 5px;
 }
 
+header h2 {
+    color: #ffffff;
+    border: none;
+    margin-top: 0;
+    font-weight: normal;
+}
 
 section {
-
-background:#ffffff;
-margin:30px;
-padding:35px;
-border-radius:20px;
-box-shadow:0px 5px 15px rgba(32,102,107,0.15);
-
+    background: #ffffff;
+    margin: 30px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(32,102,107,0.15);
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
 
 .card {
-
-background:#F7F7F7;
-padding:20px;
-margin:15px;
-border-radius:15px;
-
+    background: #F7F7F7;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .card:hover {
-
-transform: translateY(-5px);
-
-box-shadow:0px 8px 20px rgba(32,102,107,0.25);
-
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(32,102,107,0.25);
 }
 
+.card.secondary {
+    background: #fdfdfd;
+    border: 1px solid #EAF2F8;
+}
 
 .button {
-
-background:#639E9C;
-color:#000000;
-padding:12px 25px;
-text-decoration:none;
-border-radius:20px;
-font-weight:bold;
-
+    background: #639E9C;
+    color: #000000;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
 }
-
 
 h2 {
-
-color:#20666B;
-border-bottom:3px solid #639E9C;
-padding-bottom:10px;
-
+    color: #20666B;
+    border-bottom: 3px solid #639E9C;
+    padding-bottom: 10px;
 }
 
+h3 {
+    margin-top: 0;
+    color: #20666B;
+}
+
+.badge {
+    background-color: #20666B;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    float: right;
+}
 </style>
-
 </head>
-
-
 
 <body>
 
-
 <header>
-
-
-<img src="foto.png" class="profile">
-
-
-<h1>Katherine Bastidas</h1>
-
-<h2>Analista de Datos</h2>
-
-
-<p>
-Transformando datos en información para apoyar decisiones estratégicas.
-</p>
-
-
-<a class="button" href="CV_Katherine_Bastidas_analista.pdf" target="_blank">
-📄 Ver CV
-</a>
-
-
+    <img src="foto.png" class="profile" alt="Foto de Katherine Bastidas">
+    <h1>Katherine Bastidas</h1>
+    <h2>Analista de Datos</h2>
+    <p>Transformando datos en información para apoyar decisiones estratégicas.</p>
+    <a class="button" href="CV_Katherine_Bastidas_analista.pdf" target="_blank">📄 Ver CV</a>
 </header>
 
-
-
 <section>
-
-
-<h2>Sobre mí</h2>
-
-
-<p>
-Soy Geofísica titulada con experiencia en análisis, procesamiento y validación de datos, gestión de información y elaboración de reportes. Experiencia en estructuración de bases de datos, control de calidad de información y seguimiento de indicadores mediante SQL, Python y Excel. 
-  
-Me destaco por mi capacidad analítica, rigurosidad en el manejo de datos y aprendizaje continuo, con interés en desarrollarme en análisis de datos, Business Intelligence y mejora de procesos. 
-</p>
-
-
+    <h2>Sobre mí</h2>
+    <p>
+        Soy Geofísica titulada con experiencia en análisis, procesamiento y validación de datos, gestión de información y elaboración de reportes. Experiencia en estructuración de bases de datos, control de calidad de información y seguimiento de indicadores mediante SQL, Python y Excel. 
+    </p>
+    <p>
+        Me destaco por mi capacidad analítica, rigurosidad en el manejo de datos y aprendizaje continuo, con interés en desarrollarme en análisis de datos, Business Intelligence y mejora de procesos. 
+    </p>
 </section>
 
-
-
 <section>
-
-
-<h2>Habilidades</h2>
-
-
-<ul>
-
-<li>Python (Pandas, NumPy)</li>
-
-<li>SQL</li>
-
-<li>Power BI</li>
-
-<li>Excel avanzado</li>
-
-<li>Análisis estadístico</li>
-
-<li>Visualización de datos</li>
-
-
-</ul>
-
-
-
-
-<section>
-
-<h2>Proyectos</h2>
-
-<p>
-Proyectos de análisis de datos orientados a la resolución de problemas
-de negocio mediante limpieza, transformación, visualización y modelamiento
-de información.
-</p>
-
-
-<div class="card">
-
-<h3> Proyecto 1: Análisis Comercial de Ventas</h3>
-
-<p>
-Desarrollo de un dashboard interactivo en Power BI para analizar
-ventas, clientes, productos, rentabilidad y tendencias temporales.
-</p>
-
-<p>
-<b>Herramientas:</b> Excel, Power Query, Power BI, DAX
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 2: Análisis de Recursos Humanos</h3>
-
-<p>
-Análisis de indicadores de empleados para identificar factores asociados
-a rotación, satisfacción laboral y comportamiento organizacional.
-</p>
-
-<p>
-<b>Herramientas:</b> Python, SQL, Power BI
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 3: Análisis de Base de Datos con SQL</h3>
-
-<p>
-Diseño de consultas SQL para extraer información relevante desde bases
-de datos relacionales y responder preguntas de negocio.
-</p>
-
-<p>
-<b>Herramientas:</b> PostgreSQL, SQL avanzado
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 4: Limpieza y Exploración de Datos con Python</h3>
-
-<p>
-Proceso completo de preparación de datos: limpieza, transformación,
-detección de valores faltantes y análisis exploratorio.
-</p>
-
-<p>
-<b>Herramientas:</b> Python, Pandas, NumPy, Matplotlib
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 5: Dashboard Financiero</h3>
-
-<p>
-Creación de indicadores financieros para analizar ingresos,
-costos, márgenes y evolución económica de una organización.
-</p>
-
-<p>
-<b>Herramientas:</b> Excel, Power BI, DAX
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 6: Predicción de Ventas</h3>
-
-<p>
-Aplicación de modelos predictivos para estimar comportamiento futuro
-de ventas y apoyar la planificación estratégica.
-</p>
-
-<p>
-<b>Herramientas:</b> Python, Scikit-Learn, Machine Learning
-</p>
-
-</div>
-
-
-
-<div class="card">
-
-<h3> Proyecto 7: Análisis Geoespacial de Datos</h3>
-
-<p>
-Análisis de información espacial mediante datos geográficos,
-generación de mapas y búsqueda de patrones territoriales.
-</p>
-
-<p>
-<b>Herramientas:</b> Python, GIS, Power BI, análisis espacial
-</p>
-
-</div>
-
-
-
+    <h2>Habilidades</h2>
+    <ul>
+        <li>Python (Pandas, NumPy, Scikit-Learn)</li>
+        <li>SQL (PostgreSQL, consultas avanzadas)</li>
+        <li>Power BI / Power Query / DAX</li>
+        <li>Excel avanzado</li>
+        <li>Análisis estadístico y Geoespacial (GIS)</li>
+        <li>Visualización de datos y Machine Learning</li>
+    </ul>
 </section>
 
-
-
-
-
-
-  
 <section>
+    <h2>Proyectos Destacados</h2>
+    <p>Selección de proyectos de alto impacto que demuestran el dominio del ciclo completo del dato, analítica avanzada y soluciones de negocio.</p>
+    
+    <div class="projects-grid">
+        <!-- Proyecto 6 -->
+        <div class="card">
+            <span class="badge">Predictivo</span>
+            <h3>Proyecto 1: Predicción de Ventas</h3>
+            <p>Aplicación de modelos predictivos para estimar el comportamiento futuro de ventas y apoyar la planificación estratégica comercial.</p>
+            <p><b>Herramientas:</b> Python, Scikit-Learn, Machine Learning</p>
+        </div>
 
-<h2>Contacto</h2>
+        <!-- Proyecto 2 -->
+        <div class="card">
+            <span class="badge">Estratégico</span>
+            <h3>Proyecto 2: Análisis de Recursos Humanos</h3>
+            <p>Análisis integral de indicadores de empleados para identificar factores clave asociados a la rotación, satisfacción laboral y comportamiento organizacional.</p>
+            <p><b>Herramientas:</b> Python, SQL, Power BI</p>
+        </div>
 
-<p>
-Cuento con disponibilidad inmediata a oportunidades laborales y proyectos relacionados con análisis de datos,
-visualización de información y resolución de problemas mediante datos.
-</p>
-
-
-<p>
-📧 Email:
-<a href="mailto:katherinebastidas28@gmail.com">
-katherinebastidas28@gmail.com
-</a>
-</p>
-
-
-<p>
-📍 Santiago, Chile
-</p>
-
-
+        <!-- Proyecto 7 -->
+        <div class="card">
+            <span class="badge">Especializado</span>
+            <h3>Proyecto 3: Análisis Geoespacial de Datos</h3>
+            <p>Análisis de información espacial mediante datos geográficos, generación de mapas interactivos y búsqueda de patrones territoriales.</p>
+            <p><b>Herramientas:</b> Python, GIS, Power BI, análisis espacial</p>
+        </div>
+    </div>
 </section>
 
+<section>
+    <h2>Otros Proyectos y Repositorios</h2>
+    <p>Proyectos complementarios que validan mis bases técnicas en extracción, limpieza y reportería financiera-comercial.</p>
+    
+    <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <div class="card secondary">
+            <h3>Análisis Comercial de Ventas</h3>
+            <p>Desarrollo de un dashboard interactivo para analizar ventas, clientes, productos, rentabilidad y tendencias temporales.</p>
+            <p><b>Herramientas:</b> Excel, Power Query, Power BI, DAX</p>
+        </div>
 
+        <!-- Proyecto 3 -->
+        <div class="card secondary">
+            <h3>Análisis de Base de Datos con SQL</h3>
+            <p>Diseño de consultas optimizadas para extraer información relevante desde bases de datos relacionales y responder preguntas de negocio.</p>
+            <p><b>Herramientas:</b> PostgreSQL, SQL avanzado</p>
+        </div>
+
+        <!-- Proyecto 4 -->
+        <div class="card secondary">
+            <h3>Limpieza y Exploración de Datos con Python</h3>
+            <p>Proceso completo de preparación de datos: limpieza, transformación profunda, detección de valores faltantes y análisis exploratorio (EDA).</p>
+            <p><b>Herramientas:</b> Python, Pandas, NumPy, Matplotlib</p>
+        </div>
+
+        <!-- Proyecto 5 -->
+        <div class="card secondary">
+            <h3>Dashboard Financiero</h3>
+            <p>Creación de indicadores financieros (KPIs) para analizar ingresos, costos, márgenes y la evolución económica organizacional.</p>
+            <p><b>Herramientas:</b> Excel, Power BI, DAX</p>
+        </div>
+    </div>
 </section>
 
-
+<section>
+    <h2>Contacto</h2>
+    <p>Cuento con disponibilidad inmediata para oportunidades laborales y proyectos relacionados con análisis de datos, visualización de información y resolución de problemas mediante datos.</p>
+    <p>📧 Email: <a href="mailto:katherinebastidas28@gmail.com">katherinebastidas28@gmail.com</a></p>
+    <p>📍 Santiago, Chile</p>
+</section>
 
 </body>
-
 </html>
+
