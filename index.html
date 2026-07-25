@@ -2,107 +2,69 @@
 <html>
 
 <head>
-
 <title>Katherine Bastidas | Analista de Datos</title>
 
-
 <style>
-
-
 body {
-
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #EAF2F8;
     color: #20666B;
-
 }
 
-
 /* ENCABEZADO */
-
 header {
-
     background-color: #20666B;
     color: white;
     text-align: center;
     padding: 50px;
-
 }
 
-
 .profile {
-
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-
 }
-
 
 h1 {
-
     font-size: 40px;
     margin-bottom: 5px;
-
 }
 
-
 header h2 {
-
     color: #ffffff;
     border: none;
     margin-top: 0;
     font-weight: normal;
-
 }
-
 
 header p {
-
     font-size: 18px;
-
 }
 
-
 /* SECCIONES */
-
 section {
-
     background: #ffffff;
     margin: 30px;
     padding: 35px;
     border-radius: 20px;
     box-shadow: 0px 5px 15px rgba(32,102,107,0.15);
-
 }
 
-
-
 h2 {
-
     color: #20666B;
     border-bottom: 3px solid #639E9C;
     padding-bottom: 10px;
-
 }
-
-
 
 h3 {
-
     margin-top: 0;
     color: #20666B;
-
 }
 
-
-
 /* BOTONES */
-
 .button {
-
     background: #639E9C;
     color: #000000;
     padding: 12px 25px;
@@ -111,53 +73,38 @@ h3 {
     font-weight: bold;
     display: inline-block;
     margin-top: 15px;
-
 }
-
 
 .button:hover {
-
     background:#CFF0EA;
-
 }
 
-
-
 /* PROYECTOS */
-
 .projects-grid {
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px;
-
 }
 
-
-
 .card {
-
     background: #F7F7F7;
     padding: 25px;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
-
-
 
 .card:hover {
-
     transform: translateY(-5px);
     box-shadow: 0px 8px 20px rgba(32,102,107,0.25);
-
 }
 
-
+.card.secondary {
+    background: #fdfdfd;
+    border: 1px solid #EAF2F8;
+}
 
 .project-button {
-
     background: #639E9C;
     color: #000000;
     padding: 10px 20px;
@@ -166,46 +113,29 @@ h3 {
     font-weight: bold;
     display: inline-block;
     margin-top: 10px;
-
 }
-
-
 
 .project-button:hover {
-
     background:#20666B;
     color:white;
-
 }
-
-
 
 .project-info {
-
     font-size: 14px;
     line-height: 1.6;
-
 }
 
-
-
 /* ETIQUETAS */
-
 .badge {
-
     background-color: #20666B;
     color: white;
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 10px;
     float: right;
-
 }
 
-
-
 .tag {
-
     display:inline-block;
     background:#639E9C;
     color:#000000;
@@ -213,614 +143,149 @@ h3 {
     border-radius:15px;
     font-size:13px;
     margin:3px;
-
 }
-
-
-
 </style>
-
 </head>
-
 
 <body>
 
-
 <!-- ENCABEZADO -->
-
 <header>
-
-
-<img src="foto.png" class="profile" alt="Foto de Katherine Bastidas">
-
-
-<h1>Katherine Bastidas</h1>
-
-
-<h2>Analista de Datos</h2>
-
-
-<p>
-Transformando datos en información para apoyar decisiones estratégicas.
-</p>
-
-
-
-<a class="button" href="CV_Katherine_Bastidas_analista.pdf" target="_blank">
-📄 Ver CV
-</a>
-
-
+    <img src="foto.png" class="profile" alt="Foto de Katherine Bastidas">
+    <h1>Katherine Bastidas</h1>
+    <h2>Analista de Datos</h2>
+    <p>Transformando datos en información para apoyar decisiones estratégicas.</p>
+    <a class="button" href="CV_Katherine_Bastidas_analista.pdf" target="_blank">📄 Ver CV</a>
 </header>
 
-
-
 <!-- SOBRE MI -->
-
 <section>
-
-
-<h2>Sobre mí</h2>
-
-
-<p>
-Soy Geofísica titulada con experiencia en análisis, procesamiento y validación de datos, gestión de información y elaboración de reportes.
-</p>
-
-
-<p>
-Cuento con experiencia en estructuración de bases de datos, control de calidad de información y seguimiento de indicadores mediante SQL, Python y Excel.
-</p>
-
-
-<p>
-Me destaco por mi capacidad analítica, rigurosidad en el manejo de datos y aprendizaje continuo, con interés en desarrollarme en análisis de datos, Business Intelligence y mejora de procesos.
-</p>
-
-
+    <h2>Sobre mí</h2>
+    <p>Soy Geofísica titulada con experiencia en análisis, procesamiento y validación de datos, gestión de información y elaboración de reportes.</p>
+    <p>Cuento con experiencia en estructuración de bases de datos, control de calidad de información y seguimiento de indicadores mediante SQL, Python y Excel.</p>
+    <p>Me destaco por mi capacidad analítica, rigurosidad en el manejo de datos y aprendizaje continuo, con interés en desarrollarme en análisis de datos, Business Intelligence y mejora de procesos.</p>
 </section>
-
-
-
 
 <!-- HABILIDADES -->
-
 <section>
-
-
-<h2>Habilidades</h2>
-
-
-<ul>
-
-<li>Python (Pandas, NumPy, Scikit-Learn)</li>
-
-<li>SQL (PostgreSQL, consultas avanzadas)</li>
-
-<li>Power BI / Power Query / DAX</li>
-
-<li>Excel avanzado</li>
-
-<li>Análisis estadístico y Geoespacial (GIS)</li>
-
-<li>Visualización de datos y Machine Learning</li>
-
-</ul>
-
-
+    <h2>Habilidades</h2>
+    <ul>
+        <li>Python (Pandas, NumPy, Scikit-Learn)</li>
+        <li>SQL (PostgreSQL, consultas avanzadas)</li>
+        <li>Power BI / Power Query / DAX</li>
+        <li>Excel avanzado</li>
+        <li>Análisis estadístico y Geoespacial (GIS)</li>
+        <li>Visualización de datos y Machine Learning</li>
+    </ul>
 </section>
 
-<!-- PROYECTOS -->
-
+<!-- PROYECTOS DESTACADOS -->
 <section>
-
-
-<h2>Proyectos</h2>
-
-
-<p>
-Proyectos orientados al análisis, transformación y visualización de datos,
-aplicando metodologías de limpieza, exploración y generación de insights
-para apoyar la toma de decisiones.
-</p>
-
-
-
-<div class="projects-grid">
-
-
-
-<!-- PROYECTO 1 -->
-
-<div class="card">
-
-<span class="badge">BI</span>
-
-<h3>Análisis Comercial de Ventas</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Identificar tendencias comerciales, productos más rentables,
-comportamiento de clientes y oportunidades de mejora.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Dataset comercial en formato CSV con información de ventas,
-productos, clientes, fechas y regiones.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Limpieza de datos, transformación de variables, creación de KPIs
-y desarrollo de dashboard interactivo.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Power BI</span>
-<span class="tag">SQL</span>
-<span class="tag">Excel</span>
-<span class="tag">DAX</span>
-
-
-<p>
-<b>Estado:</b> En desarrollo
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/ventas.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-<!-- PROYECTO 2 -->
-
-<div class="card">
-
-
-<span class="badge">RRHH</span>
-
-
-<h3>Análisis de Recursos Humanos</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Identificar factores asociados a la rotación,
-satisfacción laboral y comportamiento organizacional.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Base de datos con información de empleados,
-desempeño, antigüedad y condiciones laborales.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Análisis exploratorio, indicadores de desempeño,
-segmentación y visualización de patrones.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Python</span>
-<span class="tag">SQL</span>
-<span class="tag">Power BI</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/rrhh.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-<!-- PROYECTO 3 -->
-
-<div class="card">
-
-
-<span class="badge">GIS</span>
-
-
-<h3>Análisis Geoespacial de Datos</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Identificar patrones espaciales mediante información geográfica
-para apoyar análisis territoriales.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Datos espaciales, capas geográficas y variables territoriales.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Procesamiento de información espacial, análisis territorial,
-generación de mapas y visualización de resultados.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Python</span>
-<span class="tag">GIS</span>
-<span class="tag">Power BI</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/geoespacial.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-
-<!-- PROYECTO 4 -->
-
-<div class="card">
-
-
-<span class="badge">Python</span>
-
-
-<h3>Limpieza y Exploración de Datos</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Preparar datos desordenados para obtener información
-confiable y lista para análisis.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Archivos CSV provenientes de datasets públicos.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Tratamiento de valores faltantes, eliminación de duplicados,
-transformación de variables y análisis exploratorio.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Python</span>
-<span class="tag">Pandas</span>
-<span class="tag">NumPy</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/python.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- PROYECTO 5 -->
-
-<div class="card">
-
-
-<span class="badge">Finanzas</span>
-
-
-<h3>Dashboard Financiero</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Facilitar el seguimiento de ingresos, costos,
-márgenes y principales indicadores financieros.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Información financiera histórica simulada.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Construcción de KPIs, análisis de variaciones
-y generación de tablero ejecutivo.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Power BI</span>
-<span class="tag">Excel</span>
-<span class="tag">DAX</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/finanzas.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- PROYECTO 6 -->
-
-<div class="card">
-
-
-<span class="badge">Machine Learning</span>
-
-
-<h3>Predicción de Ventas</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Estimar comportamiento futuro de ventas para mejorar
-planificación y toma de decisiones.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Histórico de ventas con variables temporales.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Preparación de datos, entrenamiento de modelos,
-evaluación y comparación de resultados.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">Python</span>
-<span class="tag">Scikit-Learn</span>
-<span class="tag">Machine Learning</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/prediccion.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-
-
-
-
-<!-- PROYECTO 7 -->
-
-<div class="card">
-
-
-<span class="badge">SQL</span>
-
-
-<h3>Análisis de Base de Datos con SQL</h3>
-
-
-<div class="project-info">
-
-
-<p>
-<b>Problema:</b><br>
-Obtener información relevante desde bases de datos
-para responder preguntas de negocio.
-</p>
-
-
-<p>
-<b>Fuente de datos:</b><br>
-Base de datos relacional con múltiples tablas.
-</p>
-
-
-<p>
-<b>Metodología:</b><br>
-Creación de consultas, unión de tablas,
-agregaciones y generación de métricas.
-</p>
-
-
-<p>
-<b>Herramientas:</b>
-</p>
-
-
-<span class="tag">SQL</span>
-<span class="tag">PostgreSQL</span>
-
-
-<p>
-<b>Estado:</b> Próximamente
-</p>
-
-
-</div>
-
-
-<a class="project-button" href="proyectos/sql.html">
-Ver proyecto →
-</a>
-
-
-</div>
-
-
-
-</div>
-
-
+    <h2>Proyectos Destacados</h2>
+    <p>Selección de proyectos de alto impacto que demuestran el dominio del ciclo completo del dato, analítica avanzada y soluciones estratégicas.</p>
+
+    <div class="projects-grid">
+
+        <!-- PROYECTO: PREDICCIÓN DE VENTAS -->
+        <div class="card">
+            <span class="badge">Predictivo</span>
+            <h3>Predicción de Ventas</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Aplicación de modelos predictivos para estimar el comportamiento futuro de ventas y apoyar la planificación estratégica comercial.</p>
+                <p><b>Fuente de datos:</b><br>Datos históricos de ventas multicanal con registros temporales y variables macroeconómicas.</p>
+                <p><b>Metodología:</b><br>Análisis de series de tiempo, ingeniería de variables, entrenamiento y evaluación de modelos supervisados de regresión.</p>
+                <p><b>Herramientas:</b></p>
+                <span class="tag">Python</span>
+                <span class="tag">Scikit-Learn</span>
+                <span class="tag">Machine Learning</span>
+                <p><b>Estado:</b> Próximamente</p>
+            </div>
+            <a class="project-button" href="proyectos/prediccion.html">Ver proyecto →</a>
+        </div>
+
+        <!-- PROYECTO: RECURSOS HUMANOS -->
+        <div class="card">
+            <span class="badge">RRHH</span>
+            <h3>Análisis de Recursos Humanos</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Identificar factores asociados a la rotación, satisfacción laboral y comportamiento organizacional.</p>
+                <p><b>Fuente de datos:</b><br>Base de datos interna con información demográfica, desempeño, antigüedad y condiciones de los empleados.</p>
+                <p><b>Metodología:</b><br>Análisis exploratorio, modelado de indicadores de desempeño, segmentación de talento y visualización de patrones.</p>
+                <p><b>Herramientas:</b></p>
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Power BI</span>
+                <p><b>Estado:</b> Próximamente</p>
+            </div>
+            <a class="project-button" href="proyectos/rrhh.html">Ver proyecto →</a>
+        </div>
+
+        <!-- PROYECTO: ANALISIS GEOESPACIAL -->
+        <div class="card">
+            <span class="badge">GIS</span>
+            <h3>Análisis Geoespacial de Datos</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Identificar patrones espaciales mediante información geográfica para apoyar análisis territoriales estratégicos.</p>
+                <p><b>Fuente de datos:</b><br>Datos espaciales vectoriales, capas geográficas e indicadores demográficos territoriales.</p>
+                <p><b>Metodología:</b><br>Procesamiento de información espacial, análisis de proximidad y clusters, generación de mapas y visualización interactiva.</p>
+                <p><b>Herramientas:</b></p>
+                <span class="tag">Python</span>
+                <span class="tag">GIS</span>
+                <span class="tag">Power BI</span>
+                <p><b>Estado:</b> Próximamente</p>
+            </div>
+            <a class="project-button" href="proyectos/geoespacial.html">Ver proyecto →</a>
+        </div>
+
+    </div>
 </section>
 
-
-
-
-
-<!-- CONTACTO -->
-
-
+<!-- PROYECTOS COMPLEMENTARIOS -->
 <section>
+    <h2>Otros Proyectos y Repositorios</h2>
+    <p>Proyectos adicionales orientados a la extracción, preparación, limpieza profunda y reportería financiera y comercial de datos.</p>
 
+    <div class="projects-grid">
 
-<h2>Contacto</h2>
+        <!-- PROYECTO: COMERCIAL VENTAS -->
+        <div class="card secondary">
+            <span class="badge">BI</span>
+            <h3>Análisis Comercial de Ventas</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Identificar tendencias comerciales, productos más rentables, comportamiento de clientes y oportunidades de mejora.</p>
+                <p><b>Fuente de datos:</b><br>Dataset comercial en formato CSV con información de ventas, productos, clientes, fechas y regiones.</p>
+                <p><b>Metodología:</b><br>Limpieza de datos, transformación de variables, modelamiento estelar, creación de KPIs y desarrollo de dashboard.</p>
+                <p><b>Herramientas:</b></p>
+                <span class="tag">Power BI</span>
+                <span class="tag">Excel</span>
+                <span class="tag">Power Query</span>
+                <span class="tag">DAX</span>
+                <p><b>Estado:</b> En desarrollo</p>
+            </div>
+            <a class="project-button" href="proyectos/ventas.html">Ver proyecto →</a>
+        </div>
 
+        <!-- PROYECTO: SQL BASE DE DATOS -->
+        <div class="card secondary">
+            <span class="badge">SQL</span>
+            <h3>Análisis de Base de Datos con SQL</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Diseño de consultas optimizadas para extraer información relevante desde bases de datos relacionales y responder preguntas complejas de negocio.</p>
+                <p><b>Fuente de datos:</b><br>Esquemas de bases de datos relacionales multicliente e histórico de operaciones corporativas.</p>
+                <p><b>Metodología:</b><br>Estructuración de queries complejas, uso de subconsultas, funciones de ventana (Window Functions) y optimización de joins.</p>
+                <p><b>Herramientas:</b></p>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">SQL Avanzado</span>
+                <p><b>Estado:</b> Próximamente</p>
+            </div>
+            <a class="project-button" href="proyectos/sql.html">Ver proyecto →</a>
+        </div>
 
-<p>
-Cuento con disponibilidad inmediata para oportunidades laborales
-y proyectos relacionados con análisis de datos, visualización de información
-y resolución de problemas mediante datos.
-</p>
+        <!-- PROYECTO: LIMPIEZA PYTHON -->
+        <div class="card secondary">
+            <span class="badge">Python</span>
+            <h3>Limpieza y Exploración de Datos</h3>
+            <div class="project-info">
+                <p><b>Problema:</b><br>Preparar datos desordenados y ruidosos para obtener información confiable, consistente y lista para análisis analítico.</p>
+                <p><b>Fuente de datos:</b><br>Archivos CSV e información cruda proveniente de datasets públicos no estructurados.</p>
 
-
-
-<p>
-📧 Email:
-<a href="mailto:katherinebastidas28@gmail.com">
-katherinebastidas28@gmail.com
-</a>
-</p>
-
-
-
-<p>
-📍 Santiago, Chile
-</p>
-
-
-</section>
-
-
-
-</body>
-
-
-</html>
